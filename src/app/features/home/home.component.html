@@ -1,1 +1,1377 @@
-<p>home works!</p>
+<section id="hero"
+    class="relative min-h-screen flex items-center justify-center pt-16 lg:pt-20 px-4 sm:px-6 lg:px-8 overflow-hidden">
+    <div class="absolute inset-0 gradient-overlay m-[0px]"></div>
+    <div class="container mx-auto max-w-7xl relative z-10 w-full flex items-center justify-center">
+        <div
+            class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16 items-center justify-center mx-auto w-full max-w-6xl min-h-[calc(100vh-8rem)] lg:min-h-[calc(100vh-10rem)] m-[0px]">
+            <div
+                class="text-center lg:text-left space-y-6 lg:space-y-8 order-2 lg:order-1 flex flex-col justify-center">
+                <div class="space-y-4">
+                    <h1
+                        class="font-playfair text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl leading-tight text-[#2C3E50]">
+                        <span class="block">Fresh Milk.</span><span class="block">Fair Pay.</span><span
+                            class="block text-[#0D96D9]">Every Day.</span>
+                    </h1>
+                    <p class="text-base sm:text-lg lg:text-xl text-gray-600 max-w-2xl mx-auto lg:mx-0 leading-relaxed">
+                        Premium 500ml fresh milk pouches delivered straight from farm to your doorstep, ensuring daily
+                        income for our trusted farmers.</p>
+                </div>
+                <div class="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start"><button data-slot="button"
+                        class="inline-flex items-center justify-center gap-2 whitespace-nowrap font-medium disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg:not([class*='size-'])]:size-4 shrink-0 [&amp;_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive h-10 has-[&gt;svg]:px-4 bg-[#FFD87B] hover:bg-[#FFD87B]/90 text-[#2C3E50] px-6 lg:px-8 py-3 lg:py-4 text-base lg:text-lg rounded-full shadow-lg hover:shadow-xl transition-all duration-300">Discover
+                        Our Promise</button><button data-slot="button"
+                        class="inline-flex items-center justify-center gap-2 whitespace-nowrap font-medium transition-all disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg:not([class*='size-'])]:size-4 shrink-0 [&amp;_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive border bg-background hover:text-accent-foreground dark:bg-input/30 dark:border-input dark:hover:bg-input/50 h-10 has-[&gt;svg]:px-4 border-[#2563EB] text-[#2C3E50] hover:bg-[#2563EB]/10 px-6 lg:px-8 py-3 lg:py-4 text-base lg:text-lg rounded-full">Order
+                        Fresh Milk</button></div>
+            </div>
+            <div class="relative flex flex-col justify-center items-center lg:items-end order-1 lg:order-2">
+                <div class="relative group w-full max-w-md mx-auto lg:max-w-none lg:mx-0">
+                    <div
+                        class="absolute inset-0 bg-[#2563EB]/20 rounded-3xl blur-3xl group-hover:blur-2xl transition-all duration-500">
+                    </div>
+                    <div class="relative flex items-center justify-center floating-animation p-4 sm:p-6 lg:p-0">
+                        <div class="relative flex-shrink-0"><img src="assets/images/hero-image.png"
+                                alt="ButterBliss Fresh Milk 500ml"
+                                class="w-64 h-80 sm:w-72 sm:h-96 lg:w-80 lg:h-[480px] xl:w-96 xl:h-[580px] object-contain drop-shadow-2xl group-hover:scale-105 transition-transform duration-700">
+                            <div
+                                class="absolute top-4 right-4 sm:top-6 sm:right-6 lg:top-8 lg:right-8 bg-white rounded-full p-2 lg:p-3 shadow-lg">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    class="lucide lucide-droplets w-4 h-4 lg:w-5 lg:h-5 text-[#2563EB]"
+                                    aria-hidden="true">
+                                    <path
+                                        d="M7 16.3c2.2 0 4-1.83 4-4.05 0-1.16-.57-2.26-1.71-3.19S7.29 6.75 7 5.3c-.29 1.45-1.14 2.84-2.29 3.76S3 11.1 3 12.25c0 2.22 1.8 4.05 4 4.05z">
+                                    </path>
+                                    <path
+                                        d="M12.56 6.6A10.97 10.97 0 0 0 14 3.02c.5 2.5 2 4.9 4 6.5s3 3.5 3 5.5a6.98 6.98 0 0 1-11.91 4.97">
+                                    </path>
+                                </svg>
+                            </div>
+                            <div
+                                class="absolute bottom-4 left-4 sm:bottom-6 sm:left-6 lg:bottom-8 lg:left-8 bg-white rounded-full p-2 lg:p-3 shadow-lg">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    class="lucide lucide-heart w-4 h-4 lg:w-5 lg:h-5 text-[#FFD87B]" aria-hidden="true">
+                                    <path
+                                        d="M2 9.5a5.5 5.5 0 0 1 9.591-3.676.56.56 0 0 0 .818 0A5.49 5.49 0 0 1 22 9.5c0 2.29-1.5 4-3 5.5l-5.492 5.313a2 2 0 0 1-3 .019L5 15c-1.5-1.5-3-3.2-3-5.5">
+                                    </path>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="about" class="py-16 lg:py-24 xl:py-32 bg-[#2563EB]/10">
+    <div class="container mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16 xl:gap-20 items-center">
+            <div class="relative order-2 lg:order-1">
+                <div class="relative overflow-hidden rounded-3xl"><img src="assets/images/about-us.png"
+                        alt="ButterBliss representative and farmer exchanging fresh milk with cows in background"
+                        class="w-full h-64 sm:h-80 lg:h-96 xl:h-[500px] object-cover">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
+                </div>
+                <div
+                    class="absolute bottom-2 right-2 sm:bottom-4 sm:right-4 lg:bottom-6 lg:right-6 bg-white rounded-2xl p-3 sm:p-4 lg:p-6 shadow-xl max-w-[180px] sm:max-w-[200px] lg:max-w-xs">
+                    <div class="flex items-center space-x-2 sm:space-x-3">
+                        <div class="bg-[#FFD87B] rounded-full p-1.5 sm:p-2"><svg xmlns="http://www.w3.org/2000/svg"
+                                width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                class="lucide lucide-circle-check-big w-3 h-3 sm:w-4 sm:h-4 lg:w-5 lg:h-5 text-white"
+                                aria-hidden="true">
+                                <path d="M21.801 10A10 10 0 1 1 17 3.335"></path>
+                                <path d="m9 11 3 3L22 4"></path>
+                            </svg></div>
+                        <div>
+                            <p class="font-semibold text-xs lg:text-sm">Daily Payments</p>
+                            <p class="text-xs text-gray-600">To 500+ Farmers</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="space-y-6 lg:space-y-8 order-1 lg:order-2">
+                <div class="space-y-4">
+                    <h2 class="font-playfair text-2xl sm:text-3xl lg:text-4xl xl:text-5xl text-[#2C3E50] leading-tight">
+                        Pure Milk, <span class="text-[#0D96D9]">Pure Ethics</span></h2>
+                    <p class="text-base lg:text-lg text-gray-600 leading-relaxed">At ButterBliss, we believe in
+                        transparency and fairness. Every drop of milk is sourced directly from trusted local farmers who
+                        receive daily payments for their fresh supply.</p>
+                    <p class="text-base lg:text-lg text-gray-600 leading-relaxed">Our commitment to quality starts at
+                        the farm and ends at your table, ensuring the freshest, most nutritious dairy products for your
+                        family.</p>
+                </div>
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 lg:gap-6">
+                    <div class="flex items-center space-x-3">
+                        <div class="bg-[#2563EB] rounded-full p-2"><svg xmlns="http://www.w3.org/2000/svg" width="24"
+                                height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round"
+                                class="lucide lucide-shield w-4 h-4 lg:w-5 lg:h-5 text-white" aria-hidden="true">
+                                <path
+                                    d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z">
+                                </path>
+                            </svg></div>
+                        <div>
+                            <h3 class="font-semibold text-sm lg:text-base">100% Pure</h3>
+                            <p class="text-xs lg:text-sm text-gray-600">No additives</p>
+                        </div>
+                    </div>
+                    <div class="flex items-center space-x-3">
+                        <div class="bg-[#FFD87B] rounded-full p-2"><svg xmlns="http://www.w3.org/2000/svg" width="24"
+                                height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round"
+                                class="lucide lucide-indian-rupee w-4 h-4 lg:w-5 lg:h-5 text-white" aria-hidden="true">
+                                <path d="M6 3h12"></path>
+                                <path d="M6 8h12"></path>
+                                <path d="m6 13 8.5 8"></path>
+                                <path d="M6 13h3"></path>
+                                <path d="M9 13c6.667 0 6.667-10 0-10"></path>
+                            </svg></div>
+                        <div>
+                            <h3 class="font-semibold text-sm lg:text-base">Fair Trade</h3>
+                            <p class="text-xs lg:text-sm text-gray-600">Daily farmer pay</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="py-20 lg:py-32 bg-gradient-to-br from-[#2563EB]/5 via-white to-[#FFD87B]/5 relative overflow-hidden">
+    <div class="container mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative z-10">
+        <div class="text-center space-y-6 mb-16 lg:mb-20">
+            <h2 class="font-playfair text-3xl sm:text-4xl lg:text-5xl text-[#2C3E50]">Why Choose <span
+                    class="text-[#0D96D9]">ButterBliss?</span></h2>
+            <p class="text-lg text-gray-600 max-w-3xl mx-auto leading-relaxed">Experience the perfect blend of quality,
+                freshness, and ethical practices that make us the preferred choice for thousands of families</p>
+        </div>
+        <div class="space-y-16 lg:space-y-20">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-12">
+                <div class="relative group">
+                    <div
+                        class="absolute inset-0 bg-gradient-to-br from-[#2563EB]/20 to-[#FFD87B]/20 rounded-3xl blur-xl group-hover:blur-lg transition-all duration-500">
+                    </div>
+                    <div
+                        class="relative bg-white/80 backdrop-blur-sm rounded-3xl p-6 lg:p-8 shadow-xl hover:shadow-2xl transition-all duration-500 border border-white/50 h-full">
+                        <div class="flex flex-col space-y-4">
+                            <div
+                                class="bg-gradient-to-br from-[#2563EB] to-[#0D96D9] w-16 h-16 lg:w-20 lg:h-20 rounded-2xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform duration-300 flex-shrink-0 mx-auto lg:mx-0">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    class="lucide lucide-shield w-8 h-8 lg:w-10 lg:h-10 text-white" aria-hidden="true">
+                                    <path
+                                        d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z">
+                                    </path>
+                                </svg>
+                            </div>
+                            <div class="text-center lg:text-left">
+                                <h3 class="font-playfair text-xl lg:text-2xl text-[#2C3E50] mb-3">Quality Guaranteed
+                                </h3>
+                                <p class="text-gray-600 leading-relaxed mb-4">ISO certified processing with rigorous
+                                    quality checks at every step of our farm-to-table journey.</p>
+                                <div
+                                    class="flex items-center justify-center lg:justify-start space-x-2 text-sm text-[#2563EB] font-medium">
+                                    <div class="w-2 h-2 bg-[#2563EB] rounded-full"></div><span>ISO 22000
+                                        Certified</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="relative group">
+                    <div
+                        class="absolute inset-0 bg-gradient-to-br from-[#FFD87B]/20 to-[#2563EB]/20 rounded-3xl blur-xl group-hover:blur-lg transition-all duration-500">
+                    </div>
+                    <div
+                        class="relative bg-white/80 backdrop-blur-sm rounded-3xl p-6 lg:p-8 shadow-xl hover:shadow-2xl transition-all duration-500 border border-white/50 h-full">
+                        <div class="flex flex-col space-y-4">
+                            <div
+                                class="bg-gradient-to-br from-[#FFD87B] to-[#F4A261] w-16 h-16 lg:w-20 lg:h-20 rounded-2xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform duration-300 flex-shrink-0 mx-auto lg:mx-0">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    class="lucide lucide-clock w-8 h-8 lg:w-10 lg:h-10 text-white" aria-hidden="true">
+                                    <path d="M12 6v6l4 2"></path>
+                                    <circle cx="12" cy="12" r="10"></circle>
+                                </svg>
+                            </div>
+                            <div class="text-center lg:text-left">
+                                <h3 class="font-playfair text-xl lg:text-2xl text-[#2C3E50] mb-3">Fresh Daily</h3>
+                                <p class="text-gray-600 leading-relaxed mb-4">From farm to your doorstep within 24
+                                    hours, maintaining peak freshness and nutritional value.</p>
+                                <div
+                                    class="flex items-center justify-center lg:justify-start space-x-2 text-sm text-[#FFD87B] font-medium">
+                                    <div class="w-2 h-2 bg-[#FFD87B] rounded-full"></div><span>Less than 24 Hour
+                                        Delivery</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="relative group">
+                    <div
+                        class="absolute inset-0 bg-gradient-to-r from-[#10B981]/20 via-[#FFD87B]/20 to-[#2563EB]/20 rounded-3xl blur-2xl group-hover:blur-xl transition-all duration-500">
+                    </div>
+                    <div
+                        class="relative bg-white/90 backdrop-blur-sm rounded-3xl p-6 lg:p-8 shadow-2xl hover:shadow-3xl transition-all duration-500 border border-white/60 h-full">
+                        <div class="flex flex-col space-y-4">
+                            <div
+                                class="bg-gradient-to-br from-[#10B981] to-[#059669] w-16 h-16 lg:w-20 lg:h-20 rounded-2xl flex items-center justify-center shadow-xl group-hover:scale-110 transition-transform duration-300 flex-shrink-0 mx-auto lg:mx-0">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    class="lucide lucide-indian-rupee w-8 h-8 lg:w-10 lg:h-10 text-white"
+                                    aria-hidden="true">
+                                    <path d="M6 3h12"></path>
+                                    <path d="M6 8h12"></path>
+                                    <path d="m6 13 8.5 8"></path>
+                                    <path d="M6 13h3"></path>
+                                    <path d="M9 13c6.667 0 6.667-10 0-10"></path>
+                                </svg>
+                            </div>
+                            <div class="text-center lg:text-left">
+                                <h3 class="font-playfair text-xl lg:text-2xl text-[#2C3E50] mb-3">Fair Trade Promise
+                                </h3>
+                                <p class="text-gray-600 leading-relaxed mb-4">Supporting 500+ farmers with daily
+                                    payments and transparent pricing. Every purchase directly impacts farming families.
+                                </p>
+                                <div class="grid grid-cols-2 gap-4">
+                                    <div class="text-center lg:text-left">
+                                        <div class="text-lg font-bold text-[#10B981] mb-1">₹2Cr+</div>
+                                        <div class="text-xs text-gray-600">Monthly Payouts</div>
+                                    </div>
+                                    <div class="text-center lg:text-left">
+                                        <div class="text-lg font-bold text-[#10B981] mb-1">500+</div>
+                                        <div class="text-xs text-gray-600">Partner Farmers</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-12">
+                <div class="relative group">
+                    <div
+                        class="absolute inset-0 bg-gradient-to-br from-[#2563EB]/20 to-[#FFD87B]/20 rounded-3xl blur-xl group-hover:blur-lg transition-all duration-500">
+                    </div>
+                    <div
+                        class="relative bg-white/80 backdrop-blur-sm rounded-3xl p-6 lg:p-8 shadow-xl hover:shadow-2xl transition-all duration-500 border border-white/50 h-full">
+                        <div class="flex flex-col space-y-4">
+                            <div
+                                class="bg-gradient-to-br from-[#2563EB] to-[#1E40AF] w-16 h-16 lg:w-20 lg:h-20 rounded-2xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform duration-300 flex-shrink-0 mx-auto lg:mx-0">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    class="lucide lucide-truck w-8 h-8 lg:w-10 lg:h-10 text-white" aria-hidden="true">
+                                    <path d="M14 18V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v11a1 1 0 0 0 1 1h2"></path>
+                                    <path d="M15 18H9"></path>
+                                    <path
+                                        d="M19 18h2a1 1 0 0 0 1-1v-3.65a1 1 0 0 0-.22-.624l-3.48-4.35A1 1 0 0 0 17.52 8H14">
+                                    </path>
+                                    <circle cx="17" cy="18" r="2"></circle>
+                                    <circle cx="7" cy="18" r="2"></circle>
+                                </svg>
+                            </div>
+                            <div class="text-center lg:text-left">
+                                <h3 class="font-playfair text-xl lg:text-2xl text-[#2C3E50] mb-3">Reliable Delivery</h3>
+                                <p class="text-gray-600 leading-relaxed mb-4">98% on-time delivery with proper cold
+                                    chain maintenance ensuring perfect temperature control.</p>
+                                <div
+                                    class="flex items-center justify-center lg:justify-start space-x-2 text-sm text-[#2563EB] font-medium">
+                                    <div class="w-2 h-2 bg-[#2563EB] rounded-full"></div><span>98% On-Time Rate</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="relative group">
+                    <div
+                        class="absolute inset-0 bg-gradient-to-br from-[#FFD87B]/20 to-[#2563EB]/20 rounded-3xl blur-xl group-hover:blur-lg transition-all duration-500">
+                    </div>
+                    <div
+                        class="relative bg-white/80 backdrop-blur-sm rounded-3xl p-6 lg:p-8 shadow-xl hover:shadow-2xl transition-all duration-500 border border-white/50 h-full">
+                        <div class="flex flex-col space-y-4">
+                            <div
+                                class="bg-gradient-to-br from-[#F97316] to-[#EA580C] w-16 h-16 lg:w-20 lg:h-20 rounded-2xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform duration-300 flex-shrink-0 mx-auto lg:mx-0">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    class="lucide lucide-heart w-8 h-8 lg:w-10 lg:h-10 text-white" aria-hidden="true">
+                                    <path
+                                        d="M2 9.5a5.5 5.5 0 0 1 9.591-3.676.56.56 0 0 0 .818 0A5.49 5.49 0 0 1 22 9.5c0 2.29-1.5 4-3 5.5l-5.492 5.313a2 2 0 0 1-3 .019L5 15c-1.5-1.5-3-3.2-3-5.5">
+                                    </path>
+                                </svg>
+                            </div>
+                            <div class="text-center lg:text-left">
+                                <h3 class="font-playfair text-xl lg:text-2xl text-[#2C3E50] mb-3">Community First</h3>
+                                <p class="text-gray-600 leading-relaxed mb-4">Building sustainable livelihoods for
+                                    farming communities while delivering premium quality to families.</p>
+                                <div
+                                    class="flex items-center justify-center lg:justify-start space-x-2 text-sm text-[#F97316] font-medium">
+                                    <div class="w-2 h-2 bg-[#F97316] rounded-full"></div><span>Community Focused</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="relative group">
+                    <div
+                        class="absolute inset-0 bg-gradient-to-r from-[#10B981]/20 to-[#059669]/20 rounded-3xl blur-xl group-hover:blur-lg transition-all duration-500">
+                    </div>
+                    <div
+                        class="relative bg-white/80 backdrop-blur-sm rounded-3xl p-6 lg:p-8 shadow-xl hover:shadow-2xl transition-all duration-500 border border-white/50 h-full">
+                        <div class="flex flex-col space-y-4">
+                            <div
+                                class="bg-gradient-to-br from-[#10B981] to-[#059669] w-16 h-16 lg:w-20 lg:h-20 rounded-2xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform duration-300 flex-shrink-0 mx-auto lg:mx-0">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    class="lucide lucide-package w-8 h-8 lg:w-10 lg:h-10 text-white" aria-hidden="true">
+                                    <path
+                                        d="M11 21.73a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73z">
+                                    </path>
+                                    <path d="M12 22V12"></path>
+                                    <polyline points="3.29 7 12 12 20.71 7"></polyline>
+                                    <path d="m7.5 4.27 9 5.15"></path>
+                                </svg>
+                            </div>
+                            <div class="text-center lg:text-left">
+                                <h3 class="font-playfair text-xl lg:text-2xl text-[#2C3E50] mb-3">Eco-Friendly</h3>
+                                <p class="text-gray-600 leading-relaxed mb-4">100% recyclable packaging supporting
+                                    environmental sustainability and reducing our carbon footprint.</p>
+                                <div
+                                    class="flex items-center justify-center lg:justify-start space-x-2 text-sm text-[#10B981] font-medium">
+                                    <div class="w-2 h-2 bg-[#10B981] rounded-full"></div><span>100% Recyclable
+                                        Packaging</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="products" class="py-16 lg:py-24 xl:py-32 bg-[#FFFDF7] relative">
+    <div class="container mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 text-center">
+        <div class="space-y-12 lg:space-y-16">
+            <div class="space-y-4 lg:space-y-6">
+                <h2 class="font-playfair text-2xl sm:text-3xl lg:text-4xl xl:text-5xl text-[#2C3E50]">Our <span
+                        class="text-[#0D96D9]">Fresh Milk</span></h2>
+                <p class="text-base lg:text-lg text-gray-600 max-w-3xl mx-auto leading-relaxed">Experience the purest
+                    form of nutrition with our premium 500ml fresh milk pouches, carefully processed and packaged to
+                    preserve the natural goodness of farm-fresh milk.</p>
+            </div>
+            <div class="relative">
+                <div class="flex flex-col items-center justify-center space-y-8">
+                    <div class="relative group floating-animation">
+                        <div
+                            class="absolute inset-0 bg-gradient-to-br from-[#2563EB]/20 to-[#FFD87B]/20 rounded-3xl blur-2xl group-hover:blur-xl transition-all duration-500">
+                        </div>
+                        <div
+                            class="relative bg-white rounded-3xl p-8 lg:p-12 shadow-2xl group-hover:shadow-3xl transition-all duration-500">
+                            <img src="assets/images/hero-image.png" alt="ButterBliss Fresh Milk 500ml"
+                                class="w-48 h-64 sm:w-56 sm:h-72 lg:w-64 lg:h-80 xl:w-72 xl:h-96 object-contain mx-auto drop-shadow-xl">
+                            <div class="mt-6 lg:mt-8 space-y-3">
+                                <h3 class="font-playfair text-xl lg:text-2xl text-[#2C3E50]">ButterBliss Fresh Milk</h3>
+                                <p class="text-base lg:text-lg text-gray-600">500ml • Farm Fresh • Daily Collection</p>
+                                <div class="flex items-center justify-center space-x-4 pt-2">
+                                    <div class="flex items-center space-x-2"><svg xmlns="http://www.w3.org/2000/svg"
+                                            width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                            class="lucide lucide-droplets w-4 h-4 text-[#2563EB]" aria-hidden="true">
+                                            <path
+                                                d="M7 16.3c2.2 0 4-1.83 4-4.05 0-1.16-.57-2.26-1.71-3.19S7.29 6.75 7 5.3c-.29 1.45-1.14 2.84-2.29 3.76S3 11.1 3 12.25c0 2.22 1.8 4.05 4 4.05z">
+                                            </path>
+                                            <path
+                                                d="M12.56 6.6A10.97 10.97 0 0 0 14 3.02c.5 2.5 2 4.9 4 6.5s3 3.5 3 5.5a6.98 6.98 0 0 1-11.91 4.97">
+                                            </path>
+                                        </svg><span class="text-sm text-gray-600">100% Pure</span></div>
+                                    <div class="flex items-center space-x-2"><svg xmlns="http://www.w3.org/2000/svg"
+                                            width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                            class="lucide lucide-shield w-4 h-4 text-[#2563EB]" aria-hidden="true">
+                                            <path
+                                                d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z">
+                                            </path>
+                                        </svg><span class="text-sm text-gray-600">ISO Certified</span></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="process" class="py-20 lg:py-32 bg-[#2563EB]/5 relative overflow-hidden">
+    <div class="container mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        <div class="text-center space-y-6 mb-16 lg:mb-20">
+            <h2 class="font-playfair text-3xl sm:text-4xl lg:text-5xl text-[#2C3E50]">From Farm to <span
+                    class="text-[#0D96D9]">Your Table</span></h2>
+            <p class="text-lg text-gray-600 max-w-3xl mx-auto leading-relaxed">Our transparent process ensures quality
+                at every step while supporting our farming community</p>
+        </div>
+        <div class="relative">
+            <div class="hidden lg:block">
+                <div class="grid grid-cols-5 gap-8">
+                    <div class="relative flex flex-col items-center group">
+                        <div class="relative z-10 mb-6">
+                            <div
+                                class="bg-[#0D96D9] w-20 h-20 rounded-full flex items-center justify-center shadow-xl border-4 border-white group-hover:scale-110 transition-all duration-500">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="lucide lucide-droplets w-8 h-8 text-white"
+                                    aria-hidden="true">
+                                    <path
+                                        d="M7 16.3c2.2 0 4-1.83 4-4.05 0-1.16-.57-2.26-1.71-3.19S7.29 6.75 7 5.3c-.29 1.45-1.14 2.84-2.29 3.76S3 11.1 3 12.25c0 2.22 1.8 4.05 4 4.05z">
+                                    </path>
+                                    <path
+                                        d="M12.56 6.6A10.97 10.97 0 0 0 14 3.02c.5 2.5 2 4.9 4 6.5s3 3.5 3 5.5a6.98 6.98 0 0 1-11.91 4.97">
+                                    </path>
+                                </svg>
+                            </div>
+                            <div
+                                class="absolute -top-2 -right-2 bg-[#2C3E50] text-white rounded-full w-8 h-8 flex items-center justify-center font-bold text-sm shadow-lg">
+                                01</div>
+                        </div>
+                        <div
+                            class="bg-white rounded-2xl p-6 shadow-xl border border-gray-100 hover:shadow-2xl transition-all duration-500 w-full max-w-xs group-hover:-translate-y-2">
+                            <div class="flex justify-center mb-4">
+                                <div class="bg-[#0D96D9] text-white px-3 py-1 rounded-full text-xs font-semibold">6 AM
+                                    Daily</div>
+                            </div>
+                            <div class="text-center space-y-3 mb-4">
+                                <h3
+                                    class="font-playfair text-lg text-[#2C3E50] group-hover:text-[#2563EB] transition-colors duration-300">
+                                    Farm Collection</h3>
+                                <p class="text-gray-600 text-sm leading-relaxed">Fresh milk collected from trusted farms
+                                </p>
+                            </div>
+                            <div class="bg-gradient-to-br from-[#2563EB]/10 to-[#FFD87B]/10 rounded-xl p-4 text-center">
+                                <div class="text-xl font-bold text-[#2C3E50] mb-1">500+</div>
+                                <div class="text-xs text-gray-600 font-medium">Partner Farms</div>
+                            </div>
+                        </div>
+                        <div class="absolute top-10 -right-4 z-0"><svg xmlns="http://www.w3.org/2000/svg" width="24"
+                                height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round"
+                                class="lucide lucide-arrow-right w-8 h-8 text-[#2563EB]/30" aria-hidden="true">
+                                <path d="M5 12h14"></path>
+                                <path d="m12 5 7 7-7 7"></path>
+                            </svg></div>
+                    </div>
+                    <div class="relative flex flex-col items-center group">
+                        <div class="relative z-10 mb-6">
+                            <div
+                                class="bg-[#FFD87B] w-20 h-20 rounded-full flex items-center justify-center shadow-xl border-4 border-white group-hover:scale-110 transition-all duration-500">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="lucide lucide-indian-rupee w-8 h-8 text-white"
+                                    aria-hidden="true">
+                                    <path d="M6 3h12"></path>
+                                    <path d="M6 8h12"></path>
+                                    <path d="m6 13 8.5 8"></path>
+                                    <path d="M6 13h3"></path>
+                                    <path d="M9 13c6.667 0 6.667-10 0-10"></path>
+                                </svg>
+                            </div>
+                            <div
+                                class="absolute -top-2 -right-2 bg-[#2C3E50] text-white rounded-full w-8 h-8 flex items-center justify-center font-bold text-sm shadow-lg">
+                                02</div>
+                        </div>
+                        <div
+                            class="bg-white rounded-2xl p-6 shadow-xl border border-gray-100 hover:shadow-2xl transition-all duration-500 w-full max-w-xs group-hover:-translate-y-2">
+                            <div class="flex justify-center mb-4">
+                                <div class="bg-[#FFD87B] text-white px-3 py-1 rounded-full text-xs font-semibold">
+                                    Real-time</div>
+                            </div>
+                            <div class="text-center space-y-3 mb-4">
+                                <h3
+                                    class="font-playfair text-lg text-[#2C3E50] group-hover:text-[#2563EB] transition-colors duration-300">
+                                    Instant Payment</h3>
+                                <p class="text-gray-600 text-sm leading-relaxed">Immediate payment upon collection</p>
+                            </div>
+                            <div class="bg-gradient-to-br from-[#2563EB]/10 to-[#FFD87B]/10 rounded-xl p-4 text-center">
+                                <div class="text-xl font-bold text-[#2C3E50] mb-1">₹2Cr+</div>
+                                <div class="text-xs text-gray-600 font-medium">Monthly Payouts</div>
+                            </div>
+                        </div>
+                        <div class="absolute top-10 -right-4 z-0"><svg xmlns="http://www.w3.org/2000/svg" width="24"
+                                height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round"
+                                class="lucide lucide-arrow-right w-8 h-8 text-[#2563EB]/30" aria-hidden="true">
+                                <path d="M5 12h14"></path>
+                                <path d="m12 5 7 7-7 7"></path>
+                            </svg></div>
+                    </div>
+                    <div class="relative flex flex-col items-center group">
+                        <div class="relative z-10 mb-6">
+                            <div
+                                class="bg-[#0D96D9] w-20 h-20 rounded-full flex items-center justify-center shadow-xl border-4 border-white group-hover:scale-110 transition-all duration-500">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="lucide lucide-shield w-8 h-8 text-white"
+                                    aria-hidden="true">
+                                    <path
+                                        d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z">
+                                    </path>
+                                </svg>
+                            </div>
+                            <div
+                                class="absolute -top-2 -right-2 bg-[#2C3E50] text-white rounded-full w-8 h-8 flex items-center justify-center font-bold text-sm shadow-lg">
+                                03</div>
+                        </div>
+                        <div
+                            class="bg-white rounded-2xl p-6 shadow-xl border border-gray-100 hover:shadow-2xl transition-all duration-500 w-full max-w-xs group-hover:-translate-y-2">
+                            <div class="flex justify-center mb-4">
+                                <div class="bg-[#0D96D9] text-white px-3 py-1 rounded-full text-xs font-semibold">Under
+                                    4 Hours</div>
+                            </div>
+                            <div class="text-center space-y-3 mb-4">
+                                <h3
+                                    class="font-playfair text-lg text-[#2C3E50] group-hover:text-[#2563EB] transition-colors duration-300">
+                                    Quality Processing</h3>
+                                <p class="text-gray-600 text-sm leading-relaxed">Hygienic processing &amp; quality
+                                    testing</p>
+                            </div>
+                            <div class="bg-gradient-to-br from-[#2563EB]/10 to-[#FFD87B]/10 rounded-xl p-4 text-center">
+                                <div class="text-xl font-bold text-[#2C3E50] mb-1">ISO</div>
+                                <div class="text-xs text-gray-600 font-medium">Certified</div>
+                            </div>
+                        </div>
+                        <div class="absolute top-10 -right-4 z-0"><svg xmlns="http://www.w3.org/2000/svg" width="24"
+                                height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round"
+                                class="lucide lucide-arrow-right w-8 h-8 text-[#2563EB]/30" aria-hidden="true">
+                                <path d="M5 12h14"></path>
+                                <path d="m12 5 7 7-7 7"></path>
+                            </svg></div>
+                    </div>
+                    <div class="relative flex flex-col items-center group">
+                        <div class="relative z-10 mb-6">
+                            <div
+                                class="bg-[#FFD87B] w-20 h-20 rounded-full flex items-center justify-center shadow-xl border-4 border-white group-hover:scale-110 transition-all duration-500">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="lucide lucide-heart w-8 h-8 text-white"
+                                    aria-hidden="true">
+                                    <path
+                                        d="M2 9.5a5.5 5.5 0 0 1 9.591-3.676.56.56 0 0 0 .818 0A5.49 5.49 0 0 1 22 9.5c0 2.29-1.5 4-3 5.5l-5.492 5.313a2 2 0 0 1-3 .019L5 15c-1.5-1.5-3-3.2-3-5.5">
+                                    </path>
+                                </svg>
+                            </div>
+                            <div
+                                class="absolute -top-2 -right-2 bg-[#2C3E50] text-white rounded-full w-8 h-8 flex items-center justify-center font-bold text-sm shadow-lg">
+                                04</div>
+                        </div>
+                        <div
+                            class="bg-white rounded-2xl p-6 shadow-xl border border-gray-100 hover:shadow-2xl transition-all duration-500 w-full max-w-xs group-hover:-translate-y-2">
+                            <div class="flex justify-center mb-4">
+                                <div class="bg-[#FFD87B] text-white px-3 py-1 rounded-full text-xs font-semibold">Same
+                                    Day</div>
+                            </div>
+                            <div class="text-center space-y-3 mb-4">
+                                <h3
+                                    class="font-playfair text-lg text-[#2C3E50] group-hover:text-[#2563EB] transition-colors duration-300">
+                                    Premium Packaging</h3>
+                                <p class="text-gray-600 text-sm leading-relaxed">Eco-friendly 500ml pouches</p>
+                            </div>
+                            <div class="bg-gradient-to-br from-[#2563EB]/10 to-[#FFD87B]/10 rounded-xl p-4 text-center">
+                                <div class="text-xl font-bold text-[#2C3E50] mb-1">100%</div>
+                                <div class="text-xs text-gray-600 font-medium">Recyclable</div>
+                            </div>
+                        </div>
+                        <div class="absolute top-10 -right-4 z-0"><svg xmlns="http://www.w3.org/2000/svg" width="24"
+                                height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round"
+                                class="lucide lucide-arrow-right w-8 h-8 text-[#2563EB]/30" aria-hidden="true">
+                                <path d="M5 12h14"></path>
+                                <path d="m12 5 7 7-7 7"></path>
+                            </svg></div>
+                    </div>
+                    <div class="relative flex flex-col items-center group">
+                        <div class="relative z-10 mb-6">
+                            <div
+                                class="bg-[#0D96D9] w-20 h-20 rounded-full flex items-center justify-center shadow-xl border-4 border-white group-hover:scale-110 transition-all duration-500">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="lucide lucide-truck w-8 h-8 text-white"
+                                    aria-hidden="true">
+                                    <path d="M14 18V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v11a1 1 0 0 0 1 1h2"></path>
+                                    <path d="M15 18H9"></path>
+                                    <path
+                                        d="M19 18h2a1 1 0 0 0 1-1v-3.65a1 1 0 0 0-.22-.624l-3.48-4.35A1 1 0 0 0 17.52 8H14">
+                                    </path>
+                                    <circle cx="17" cy="18" r="2"></circle>
+                                    <circle cx="7" cy="18" r="2"></circle>
+                                </svg>
+                            </div>
+                            <div
+                                class="absolute -top-2 -right-2 bg-[#2C3E50] text-white rounded-full w-8 h-8 flex items-center justify-center font-bold text-sm shadow-lg">
+                                05</div>
+                        </div>
+                        <div
+                            class="bg-white rounded-2xl p-6 shadow-xl border border-gray-100 hover:shadow-2xl transition-all duration-500 w-full max-w-xs group-hover:-translate-y-2">
+                            <div class="flex justify-center mb-4">
+                                <div class="bg-[#0D96D9] text-white px-3 py-1 rounded-full text-xs font-semibold">Within
+                                    24 Hours</div>
+                            </div>
+                            <div class="text-center space-y-3 mb-4">
+                                <h3
+                                    class="font-playfair text-lg text-[#2C3E50] group-hover:text-[#2563EB] transition-colors duration-300">
+                                    Fresh Delivery</h3>
+                                <p class="text-gray-600 text-sm leading-relaxed">Door-to-door refrigerated delivery</p>
+                            </div>
+                            <div class="bg-gradient-to-br from-[#2563EB]/10 to-[#FFD87B]/10 rounded-xl p-4 text-center">
+                                <div class="text-xl font-bold text-[#2C3E50] mb-1">98%</div>
+                                <div class="text-xs text-gray-600 font-medium">On-time</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="lg:hidden space-y-8">
+                <div class="relative">
+                    <div class="flex items-start space-x-4">
+                        <div class="relative flex-shrink-0">
+                            <div
+                                class="bg-[#2563EB] w-16 h-16 rounded-full flex items-center justify-center shadow-xl border-4 border-white">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="lucide lucide-droplets w-6 h-6 text-white"
+                                    aria-hidden="true">
+                                    <path
+                                        d="M7 16.3c2.2 0 4-1.83 4-4.05 0-1.16-.57-2.26-1.71-3.19S7.29 6.75 7 5.3c-.29 1.45-1.14 2.84-2.29 3.76S3 11.1 3 12.25c0 2.22 1.8 4.05 4 4.05z">
+                                    </path>
+                                    <path
+                                        d="M12.56 6.6A10.97 10.97 0 0 0 14 3.02c.5 2.5 2 4.9 4 6.5s3 3.5 3 5.5a6.98 6.98 0 0 1-11.91 4.97">
+                                    </path>
+                                </svg>
+                            </div>
+                            <div
+                                class="absolute -top-1 -right-1 bg-[#2C3E50] text-white rounded-full w-6 h-6 flex items-center justify-center font-bold text-xs shadow-lg">
+                                01</div>
+                        </div>
+                        <div class="flex-1 bg-white rounded-2xl p-6 shadow-xl border border-gray-100">
+                            <div class="mb-3">
+                                <div
+                                    class="bg-[#2563EB] text-white px-3 py-1 rounded-full text-xs font-semibold inline-block">
+                                    6 AM Daily</div>
+                            </div>
+                            <div class="space-y-2 mb-4">
+                                <h3 class="font-playfair text-lg text-[#2C3E50]">Farm Collection</h3>
+                                <p class="text-gray-600 text-sm leading-relaxed">Fresh milk collected from trusted farms
+                                </p>
+                            </div>
+                            <div class="bg-gradient-to-br from-[#2563EB]/10 to-[#FFD87B]/10 rounded-xl p-4 text-center">
+                                <div class="text-xl font-bold text-[#2C3E50] mb-1">500+</div>
+                                <div class="text-xs text-gray-600 font-medium">Partner Farms</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex justify-center py-4"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round"
+                            class="lucide lucide-arrow-down w-6 h-6 text-[#2563EB] animate-bounce" aria-hidden="true">
+                            <path d="M12 5v14"></path>
+                            <path d="m19 12-7 7-7-7"></path>
+                        </svg></div>
+                </div>
+                <div class="relative">
+                    <div class="flex items-start space-x-4">
+                        <div class="relative flex-shrink-0">
+                            <div
+                                class="bg-[#FFD87B] w-16 h-16 rounded-full flex items-center justify-center shadow-xl border-4 border-white">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="lucide lucide-indian-rupee w-6 h-6 text-white"
+                                    aria-hidden="true">
+                                    <path d="M6 3h12"></path>
+                                    <path d="M6 8h12"></path>
+                                    <path d="m6 13 8.5 8"></path>
+                                    <path d="M6 13h3"></path>
+                                    <path d="M9 13c6.667 0 6.667-10 0-10"></path>
+                                </svg>
+                            </div>
+                            <div
+                                class="absolute -top-1 -right-1 bg-[#2C3E50] text-white rounded-full w-6 h-6 flex items-center justify-center font-bold text-xs shadow-lg">
+                                02</div>
+                        </div>
+                        <div class="flex-1 bg-white rounded-2xl p-6 shadow-xl border border-gray-100">
+                            <div class="mb-3">
+                                <div
+                                    class="bg-[#FFD87B] text-white px-3 py-1 rounded-full text-xs font-semibold inline-block">
+                                    Real-time</div>
+                            </div>
+                            <div class="space-y-2 mb-4">
+                                <h3 class="font-playfair text-lg text-[#2C3E50]">Instant Payment</h3>
+                                <p class="text-gray-600 text-sm leading-relaxed">Immediate payment upon collection</p>
+                            </div>
+                            <div class="bg-gradient-to-br from-[#2563EB]/10 to-[#FFD87B]/10 rounded-xl p-4 text-center">
+                                <div class="text-xl font-bold text-[#2C3E50] mb-1">₹2Cr+</div>
+                                <div class="text-xs text-gray-600 font-medium">Monthly Payouts</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex justify-center py-4"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round"
+                            class="lucide lucide-arrow-down w-6 h-6 text-[#2563EB] animate-bounce" aria-hidden="true">
+                            <path d="M12 5v14"></path>
+                            <path d="m19 12-7 7-7-7"></path>
+                        </svg></div>
+                </div>
+                <div class="relative">
+                    <div class="flex items-start space-x-4">
+                        <div class="relative flex-shrink-0">
+                            <div
+                                class="bg-[#2563EB] w-16 h-16 rounded-full flex items-center justify-center shadow-xl border-4 border-white">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="lucide lucide-shield w-6 h-6 text-white"
+                                    aria-hidden="true">
+                                    <path
+                                        d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z">
+                                    </path>
+                                </svg>
+                            </div>
+                            <div
+                                class="absolute -top-1 -right-1 bg-[#2C3E50] text-white rounded-full w-6 h-6 flex items-center justify-center font-bold text-xs shadow-lg">
+                                03</div>
+                        </div>
+                        <div class="flex-1 bg-white rounded-2xl p-6 shadow-xl border border-gray-100">
+                            <div class="mb-3">
+                                <div
+                                    class="bg-[#2563EB] text-white px-3 py-1 rounded-full text-xs font-semibold inline-block">
+                                    Under 4 Hours</div>
+                            </div>
+                            <div class="space-y-2 mb-4">
+                                <h3 class="font-playfair text-lg text-[#2C3E50]">Quality Processing</h3>
+                                <p class="text-gray-600 text-sm leading-relaxed">Hygienic processing &amp; quality
+                                    testing</p>
+                            </div>
+                            <div class="bg-gradient-to-br from-[#2563EB]/10 to-[#FFD87B]/10 rounded-xl p-4 text-center">
+                                <div class="text-xl font-bold text-[#2C3E50] mb-1">ISO</div>
+                                <div class="text-xs text-gray-600 font-medium">Certified</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex justify-center py-4"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round"
+                            class="lucide lucide-arrow-down w-6 h-6 text-[#2563EB] animate-bounce" aria-hidden="true">
+                            <path d="M12 5v14"></path>
+                            <path d="m19 12-7 7-7-7"></path>
+                        </svg></div>
+                </div>
+                <div class="relative">
+                    <div class="flex items-start space-x-4">
+                        <div class="relative flex-shrink-0">
+                            <div
+                                class="bg-[#FFD87B] w-16 h-16 rounded-full flex items-center justify-center shadow-xl border-4 border-white">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="lucide lucide-heart w-6 h-6 text-white"
+                                    aria-hidden="true">
+                                    <path
+                                        d="M2 9.5a5.5 5.5 0 0 1 9.591-3.676.56.56 0 0 0 .818 0A5.49 5.49 0 0 1 22 9.5c0 2.29-1.5 4-3 5.5l-5.492 5.313a2 2 0 0 1-3 .019L5 15c-1.5-1.5-3-3.2-3-5.5">
+                                    </path>
+                                </svg>
+                            </div>
+                            <div
+                                class="absolute -top-1 -right-1 bg-[#2C3E50] text-white rounded-full w-6 h-6 flex items-center justify-center font-bold text-xs shadow-lg">
+                                04</div>
+                        </div>
+                        <div class="flex-1 bg-white rounded-2xl p-6 shadow-xl border border-gray-100">
+                            <div class="mb-3">
+                                <div
+                                    class="bg-[#FFD87B] text-white px-3 py-1 rounded-full text-xs font-semibold inline-block">
+                                    Same Day</div>
+                            </div>
+                            <div class="space-y-2 mb-4">
+                                <h3 class="font-playfair text-lg text-[#2C3E50]">Premium Packaging</h3>
+                                <p class="text-gray-600 text-sm leading-relaxed">Eco-friendly 500ml pouches</p>
+                            </div>
+                            <div class="bg-gradient-to-br from-[#2563EB]/10 to-[#FFD87B]/10 rounded-xl p-4 text-center">
+                                <div class="text-xl font-bold text-[#2C3E50] mb-1">100%</div>
+                                <div class="text-xs text-gray-600 font-medium">Recyclable</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex justify-center py-4"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round"
+                            class="lucide lucide-arrow-down w-6 h-6 text-[#2563EB] animate-bounce" aria-hidden="true">
+                            <path d="M12 5v14"></path>
+                            <path d="m19 12-7 7-7-7"></path>
+                        </svg></div>
+                </div>
+                <div class="relative">
+                    <div class="flex items-start space-x-4">
+                        <div class="relative flex-shrink-0">
+                            <div
+                                class="bg-[#2563EB] w-16 h-16 rounded-full flex items-center justify-center shadow-xl border-4 border-white">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="lucide lucide-truck w-6 h-6 text-white"
+                                    aria-hidden="true">
+                                    <path d="M14 18V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v11a1 1 0 0 0 1 1h2"></path>
+                                    <path d="M15 18H9"></path>
+                                    <path
+                                        d="M19 18h2a1 1 0 0 0 1-1v-3.65a1 1 0 0 0-.22-.624l-3.48-4.35A1 1 0 0 0 17.52 8H14">
+                                    </path>
+                                    <circle cx="17" cy="18" r="2"></circle>
+                                    <circle cx="7" cy="18" r="2"></circle>
+                                </svg>
+                            </div>
+                            <div
+                                class="absolute -top-1 -right-1 bg-[#2C3E50] text-white rounded-full w-6 h-6 flex items-center justify-center font-bold text-xs shadow-lg">
+                                05</div>
+                        </div>
+                        <div class="flex-1 bg-white rounded-2xl p-6 shadow-xl border border-gray-100">
+                            <div class="mb-3">
+                                <div
+                                    class="bg-[#2563EB] text-white px-3 py-1 rounded-full text-xs font-semibold inline-block">
+                                    Within 24 Hours</div>
+                            </div>
+                            <div class="space-y-2 mb-4">
+                                <h3 class="font-playfair text-lg text-[#2C3E50]">Fresh Delivery</h3>
+                                <p class="text-gray-600 text-sm leading-relaxed">Door-to-door refrigerated delivery</p>
+                            </div>
+                            <div class="bg-gradient-to-br from-[#2563EB]/10 to-[#FFD87B]/10 rounded-xl p-4 text-center">
+                                <div class="text-xl font-bold text-[#2C3E50] mb-1">98%</div>
+                                <div class="text-xs text-gray-600 font-medium">On-time</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-20 lg:mt-24">
+                <div class="bg-white rounded-3xl p-8 lg:p-12 shadow-2xl border border-gray-100">
+                    <div class="text-center space-y-8">
+                        <h3 class="font-playfair text-2xl lg:text-3xl text-[#2C3E50]">Quality You Can <span
+                                class="text-[#0D96D9]">Trust</span></h3>
+                        <div class="grid grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8">
+                            <div
+                                class="text-center group hover:transform hover:-translate-y-2 transition-all duration-300">
+                                <div class="text-3xl lg:text-4xl font-bold text-[#2C3E50] mb-2">24hrs</div>
+                                <div class="text-sm lg:text-base text-gray-600">Farm to Door</div>
+                            </div>
+                            <div
+                                class="text-center group hover:transform hover:-translate-y-2 transition-all duration-300">
+                                <div class="text-3xl lg:text-4xl font-bold text-[#2C3E50] mb-2">100%</div>
+                                <div class="text-sm lg:text-base text-gray-600">Pure &amp; Fresh</div>
+                            </div>
+                            <div
+                                class="text-center group hover:transform hover:-translate-y-2 transition-all duration-300">
+                                <div class="text-3xl lg:text-4xl font-bold text-[#2C3E50] mb-2">500+</div>
+                                <div class="text-sm lg:text-base text-gray-600">Happy Farmers</div>
+                            </div>
+                            <div
+                                class="text-center group hover:transform hover:-translate-y-2 transition-all duration-300">
+                                <div class="text-3xl lg:text-4xl font-bold text-[#2C3E50] mb-2">10K+</div>
+                                <div class="text-sm lg:text-base text-gray-600">Daily Customers</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="py-20 lg:py-32 relative overflow-hidden bg-gradient-to-r from-green-50 via-white to-[#FFFDF7]">
+    <div class="container mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative z-10">
+        <div class="text-center space-y-6 mb-16 lg:mb-20">
+            <h2 class="font-playfair text-3xl sm:text-4xl lg:text-5xl text-[#2C3E50]">Benefits for <span
+                    class="text-[#0D96D9]">Everyone</span></h2>
+            <p class="text-lg text-gray-600 max-w-3xl mx-auto leading-relaxed">Creating value and prosperity across our
+                entire dairy ecosystem</p>
+        </div>
+        <div class="relative">
+            <div class="absolute inset-0 grid grid-cols-1 lg:grid-cols-2 rounded-3xl overflow-hidden">
+                <div class="bg-gradient-to-br from-green-100 to-green-50"></div>
+                <div class="bg-gradient-to-bl from-[#FFFDF7] to-white"></div>
+            </div>
+            <div class="relative z-10 grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16 p-8 lg:p-12">
+                <div class="space-y-8 lg:space-y-10">
+                    <div class="text-center lg:text-left space-y-4">
+                        <div
+                            class="inline-flex items-center space-x-3 bg-white/80 backdrop-blur-sm rounded-full px-6 py-3 shadow-lg">
+                            <div class="bg-[#10B981] rounded-full p-2"><svg xmlns="http://www.w3.org/2000/svg"
+                                    width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                    class="lucide lucide-users w-5 h-5 text-white" aria-hidden="true">
+                                    <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path>
+                                    <path d="M16 3.128a4 4 0 0 1 0 7.744"></path>
+                                    <path d="M22 21v-2a4 4 0 0 0-3-3.87"></path>
+                                    <circle cx="9" cy="7" r="4"></circle>
+                                </svg></div><span
+                                class="font-playfair text-xl lg:text-2xl text-[#2C3E50] font-semibold">For
+                                Farmers</span>
+                        </div>
+                    </div>
+                    <div class="relative">
+                        <div class="relative overflow-hidden rounded-2xl shadow-xl"><img
+                                src="assets/images/for-farmers.jpg"
+                                alt="Farmer milking cow at dairy farm with silos in background"
+                                class="w-full h-48 lg:h-56 object-cover">
+                            <div class="absolute inset-0 bg-gradient-to-t from-green-900/20 to-transparent"></div>
+                        </div>
+                        <div class="absolute -top-4 -right-4 bg-[#10B981] rounded-full p-3 shadow-lg animate-bounce">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" class="lucide lucide-indian-rupee w-6 h-6 text-white"
+                                aria-hidden="true">
+                                <path d="M6 3h12"></path>
+                                <path d="M6 8h12"></path>
+                                <path d="m6 13 8.5 8"></path>
+                                <path d="M6 13h3"></path>
+                                <path d="M9 13c6.667 0 6.667-10 0-10"></path>
+                            </svg>
+                        </div>
+                        <div class="absolute -bottom-4 -left-4 bg-[#FFD87B] rounded-full p-3 shadow-lg"><svg
+                                xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" class="lucide lucide-droplets w-6 h-6 text-white"
+                                aria-hidden="true">
+                                <path
+                                    d="M7 16.3c2.2 0 4-1.83 4-4.05 0-1.16-.57-2.26-1.71-3.19S7.29 6.75 7 5.3c-.29 1.45-1.14 2.84-2.29 3.76S3 11.1 3 12.25c0 2.22 1.8 4.05 4 4.05z">
+                                </path>
+                                <path
+                                    d="M12.56 6.6A10.97 10.97 0 0 0 14 3.02c.5 2.5 2 4.9 4 6.5s3 3.5 3 5.5a6.98 6.98 0 0 1-11.91 4.97">
+                                </path>
+                            </svg></div>
+                    </div>
+                    <div class="space-y-4">
+                        <div
+                            class="flex items-start space-x-4 bg-white/60 backdrop-blur-sm rounded-2xl p-4 hover:bg-white/80 transition-all duration-300 group">
+                            <div class="bg-[#10B981] rounded-full p-2"><svg xmlns="http://www.w3.org/2000/svg"
+                                    width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                    class="lucide lucide-indian-rupee w-5 h-5 text-white" aria-hidden="true">
+                                    <path d="M6 3h12"></path>
+                                    <path d="M6 8h12"></path>
+                                    <path d="m6 13 8.5 8"></path>
+                                    <path d="M6 13h3"></path>
+                                    <path d="M9 13c6.667 0 6.667-10 0-10"></path>
+                                </svg></div>
+                            <div class="flex-1">
+                                <h4 class="font-semibold text-[#2C3E50] mb-1">Fair &amp; Instant Payments</h4>
+                                <p class="text-sm text-gray-600">Daily payments at market rates</p>
+                            </div>
+                        </div>
+                        <div
+                            class="flex items-start space-x-4 bg-white/60 backdrop-blur-sm rounded-2xl p-4 hover:bg-white/80 transition-all duration-300 group">
+                            <div class="bg-[#10B981] rounded-full p-2"><svg xmlns="http://www.w3.org/2000/svg"
+                                    width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                    class="lucide lucide-users w-5 h-5 text-white" aria-hidden="true">
+                                    <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path>
+                                    <path d="M16 3.128a4 4 0 0 1 0 7.744"></path>
+                                    <path d="M22 21v-2a4 4 0 0 0-3-3.87"></path>
+                                    <circle cx="9" cy="7" r="4"></circle>
+                                </svg></div>
+                            <div class="flex-1">
+                                <h4 class="font-semibold text-[#2C3E50] mb-1">Training &amp; Support</h4>
+                                <p class="text-sm text-gray-600">Technical guidance and skill development</p>
+                            </div>
+                        </div>
+                        <div
+                            class="flex items-start space-x-4 bg-white/60 backdrop-blur-sm rounded-2xl p-4 hover:bg-white/80 transition-all duration-300 group">
+                            <div class="bg-[#10B981] rounded-full p-2"><svg xmlns="http://www.w3.org/2000/svg"
+                                    width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                    class="lucide lucide-shield w-5 h-5 text-white" aria-hidden="true">
+                                    <path
+                                        d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z">
+                                    </path>
+                                </svg></div>
+                            <div class="flex-1">
+                                <h4 class="font-semibold text-[#2C3E50] mb-1">Transparent Pricing</h4>
+                                <p class="text-sm text-gray-600">Clear, honest pricing structure</p>
+                            </div>
+                        </div>
+                        <div
+                            class="flex items-start space-x-4 bg-white/60 backdrop-blur-sm rounded-2xl p-4 hover:bg-white/80 transition-all duration-300 group">
+                            <div class="bg-[#10B981] rounded-full p-2"><svg xmlns="http://www.w3.org/2000/svg"
+                                    width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                    class="lucide lucide-clock w-5 h-5 text-white" aria-hidden="true">
+                                    <path d="M12 6v6l4 2"></path>
+                                    <circle cx="12" cy="12" r="10"></circle>
+                                </svg></div>
+                            <div class="flex-1">
+                                <h4 class="font-semibold text-[#2C3E50] mb-1">Guaranteed Daily Pickup</h4>
+                                <p class="text-sm text-gray-600">Reliable collection schedule</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="space-y-8 lg:space-y-10">
+                    <div class="text-center lg:text-left space-y-4">
+                        <div
+                            class="inline-flex items-center space-x-3 bg-white/80 backdrop-blur-sm rounded-full px-6 py-3 shadow-lg">
+                            <div class="bg-[#FFD87B] rounded-full p-2"><svg xmlns="http://www.w3.org/2000/svg"
+                                    width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                    class="lucide lucide-heart w-5 h-5 text-white" aria-hidden="true">
+                                    <path
+                                        d="M2 9.5a5.5 5.5 0 0 1 9.591-3.676.56.56 0 0 0 .818 0A5.49 5.49 0 0 1 22 9.5c0 2.29-1.5 4-3 5.5l-5.492 5.313a2 2 0 0 1-3 .019L5 15c-1.5-1.5-3-3.2-3-5.5">
+                                    </path>
+                                </svg></div><span
+                                class="font-playfair text-xl lg:text-2xl text-[#2C3E50] font-semibold">For
+                                Consumers</span>
+                        </div>
+                    </div>
+                    <div class="relative">
+                        <div class="relative overflow-hidden rounded-2xl shadow-xl"><img
+                                src="assets/images/for-consumers.png"
+                                alt="Mother and daughter sharing a glass of fresh milk together"
+                                class="w-full h-48 lg:h-56 object-cover">
+                            <div class="absolute inset-0 bg-gradient-to-t from-[#FFD87B]/20 to-transparent"></div>
+                        </div>
+                        <div class="absolute -top-4 -right-4 bg-[#FFD87B] rounded-full p-3 shadow-lg animate-bounce">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" class="lucide lucide-package w-6 h-6 text-white"
+                                aria-hidden="true">
+                                <path
+                                    d="M11 21.73a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73z">
+                                </path>
+                                <path d="M12 22V12"></path>
+                                <polyline points="3.29 7 12 12 20.71 7"></polyline>
+                                <path d="m7.5 4.27 9 5.15"></path>
+                            </svg>
+                        </div>
+                        <div class="absolute -bottom-4 -left-4 bg-[#2563EB] rounded-full p-3 shadow-lg"><svg
+                                xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" class="lucide lucide-shield w-6 h-6 text-white"
+                                aria-hidden="true">
+                                <path
+                                    d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z">
+                                </path>
+                            </svg></div>
+                    </div>
+                    <div class="space-y-4">
+                        <div
+                            class="flex items-start space-x-4 bg-white/60 backdrop-blur-sm rounded-2xl p-4 hover:bg-white/80 transition-all duration-300 group">
+                            <div class="bg-[#FFD87B] rounded-full p-2"><svg xmlns="http://www.w3.org/2000/svg"
+                                    width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                    class="lucide lucide-droplets w-5 h-5 text-white" aria-hidden="true">
+                                    <path
+                                        d="M7 16.3c2.2 0 4-1.83 4-4.05 0-1.16-.57-2.26-1.71-3.19S7.29 6.75 7 5.3c-.29 1.45-1.14 2.84-2.29 3.76S3 11.1 3 12.25c0 2.22 1.8 4.05 4 4.05z">
+                                    </path>
+                                    <path
+                                        d="M12.56 6.6A10.97 10.97 0 0 0 14 3.02c.5 2.5 2 4.9 4 6.5s3 3.5 3 5.5a6.98 6.98 0 0 1-11.91 4.97">
+                                    </path>
+                                </svg></div>
+                            <div class="flex-1">
+                                <h4 class="font-semibold text-[#2C3E50] mb-1">100% Fresh &amp; Pure Milk</h4>
+                                <p class="text-sm text-gray-600">No preservatives or additives</p>
+                            </div>
+                        </div>
+                        <div
+                            class="flex items-start space-x-4 bg-white/60 backdrop-blur-sm rounded-2xl p-4 hover:bg-white/80 transition-all duration-300 group">
+                            <div class="bg-[#FFD87B] rounded-full p-2"><svg xmlns="http://www.w3.org/2000/svg"
+                                    width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                    class="lucide lucide-shield w-5 h-5 text-white" aria-hidden="true">
+                                    <path
+                                        d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z">
+                                    </path>
+                                </svg></div>
+                            <div class="flex-1">
+                                <h4 class="font-semibold text-[#2C3E50] mb-1">ISO-Certified Processing</h4>
+                                <p class="text-sm text-gray-600">Highest quality standards maintained</p>
+                            </div>
+                        </div>
+                        <div
+                            class="flex items-start space-x-4 bg-white/60 backdrop-blur-sm rounded-2xl p-4 hover:bg-white/80 transition-all duration-300 group">
+                            <div class="bg-[#FFD87B] rounded-full p-2"><svg xmlns="http://www.w3.org/2000/svg"
+                                    width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                    class="lucide lucide-package w-5 h-5 text-white" aria-hidden="true">
+                                    <path
+                                        d="M11 21.73a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73z">
+                                    </path>
+                                    <path d="M12 22V12"></path>
+                                    <polyline points="3.29 7 12 12 20.71 7"></polyline>
+                                    <path d="m7.5 4.27 9 5.15"></path>
+                                </svg></div>
+                            <div class="flex-1">
+                                <h4 class="font-semibold text-[#2C3E50] mb-1">Eco-friendly Packaging</h4>
+                                <p class="text-sm text-gray-600">Sustainable and recyclable materials</p>
+                            </div>
+                        </div>
+                        <div
+                            class="flex items-start space-x-4 bg-white/60 backdrop-blur-sm rounded-2xl p-4 hover:bg-white/80 transition-all duration-300 group">
+                            <div class="bg-[#FFD87B] rounded-full p-2"><svg xmlns="http://www.w3.org/2000/svg"
+                                    width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                    class="lucide lucide-truck w-5 h-5 text-white" aria-hidden="true">
+                                    <path d="M14 18V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v11a1 1 0 0 0 1 1h2"></path>
+                                    <path d="M15 18H9"></path>
+                                    <path
+                                        d="M19 18h2a1 1 0 0 0 1-1v-3.65a1 1 0 0 0-.22-.624l-3.48-4.35A1 1 0 0 0 17.52 8H14">
+                                    </path>
+                                    <circle cx="17" cy="18" r="2"></circle>
+                                    <circle cx="7" cy="18" r="2"></circle>
+                                </svg></div>
+                            <div class="flex-1">
+                                <h4 class="font-semibold text-[#2C3E50] mb-1">Same-Day Delivery</h4>
+                                <p class="text-sm text-gray-600">Fresh from farm to your doorstep</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="story" class="py-20 lg:py-32 bg-[#FFFDF7] relative overflow-hidden">
+    <div class="container mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative z-10">
+        <div class="text-center space-y-6 mb-16 lg:mb-20">
+            <h2 class="font-playfair text-3xl sm:text-4xl lg:text-5xl text-[#2C3E50]">From Village Freshness to <span
+                    class="text-[#0D96D9]">Mumbai's Tables</span></h2>
+            <p class="text-lg text-gray-600 max-w-3xl mx-auto leading-relaxed">Every morning at 5 AM, our farmers in
+                Varkute-Malvadi village begin their day, ensuring the freshest milk reaches Mumbai families within 24
+                hours</p>
+        </div>
+        <div class="relative bg-white rounded-3xl p-8 lg:p-12 shadow-2xl border border-gray-100 mb-16">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
+                <div class="relative">
+                    <div
+                        class="aspect-square bg-gradient-to-br from-green-50 to-[#FFFDF7] rounded-2xl p-6 lg:p-8 shadow-inner">
+                        <div class="w-full h-full relative"><svg viewBox="0 0 300 200" class="w-full h-full">
+                                <path
+                                    d="M50 80 L80 60 L120 65 L160 70 L200 80 L250 90 L270 110 L260 130 L240 150 L200 160 L160 155 L120 150 L80 140 L50 120 Z"
+                                    fill="rgba(34, 197, 94, 0.1)" stroke="rgba(34, 197, 94, 0.3)" stroke-width="2">
+                                </path>
+                                <path d="M80 120 Q150 100 220 120" stroke="#FFD87B" stroke-width="4" fill="none"
+                                    stroke-dasharray="8,4" class="animate-pulse"></path>
+                                <circle cx="80" cy="120" r="8" fill="#10B981" class="animate-pulse">
+                                    <animate attributeName="r" values="6;10;6" dur="2s" repeatCount="indefinite">
+                                    </animate>
+                                </circle>
+                                <circle cx="220" cy="120" r="8" fill="#2563EB" class="animate-pulse">
+                                    <animate attributeName="r" values="6;10;6" dur="2s" repeatCount="indefinite"
+                                        begin="1s"></animate>
+                                </circle>
+                                <g transform="translate(120,110)">
+                                    <rect x="-6" y="-3" width="12" height="6" fill="#FFD87B" rx="2"></rect>
+                                    <circle cx="-3" cy="4" r="2" fill="#2C3E50"></circle>
+                                    <circle cx="3" cy="4" r="2" fill="#2C3E50"></circle>
+                                    <animateTransform attributeName="transform" type="translate"
+                                        values="80,120;220,120;80,120" dur="8s" repeatCount="indefinite">
+                                    </animateTransform>
+                                </g>
+                            </svg>
+                            <div class="absolute bottom-4 left-4 bg-white rounded-full px-3 py-2 shadow-lg">
+                                <div class="flex items-center space-x-2">
+                                    <div class="w-3 h-3 bg-[#10B981] rounded-full"></div><span
+                                        class="text-sm font-medium text-[#2C3E50]">Varkute Malvadi</span>
+                                </div>
+                            </div>
+                            <div class="absolute bottom-4 right-4 bg-white rounded-full px-3 py-2 shadow-lg">
+                                <div class="flex items-center space-x-2">
+                                    <div class="w-3 h-3 bg-[#2563EB] rounded-full"></div><span
+                                        class="text-sm font-medium text-[#2C3E50]">Mumbai</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="space-y-6">
+                    <h3 class="font-playfair text-2xl lg:text-3xl text-[#2C3E50] mb-6">Our Daily Journey</h3>
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                        <div class="bg-gradient-to-br from-[#10B981]/10 to-transparent rounded-2xl p-6 text-center">
+                            <div class="text-3xl font-bold text-[#10B981] mb-2">180km</div>
+                            <div class="text-sm text-gray-600">Daily Route Distance</div>
+                        </div>
+                        <div class="bg-gradient-to-br from-[#FFD87B]/10 to-transparent rounded-2xl p-6 text-center">
+                            <div class="text-3xl font-bold text-[#FFD87B] mb-2">4hrs</div>
+                            <div class="text-sm text-gray-600">Farm to Processing</div>
+                        </div>
+                        <div class="bg-gradient-to-br from-[#2563EB]/10 to-transparent rounded-2xl p-6 text-center">
+                            <div class="text-3xl font-bold text-[#2563EB] mb-2">24hrs</div>
+                            <div class="text-sm text-gray-600">Total Delivery Time</div>
+                        </div>
+                        <div class="bg-gradient-to-br from-[#F97316]/10 to-transparent rounded-2xl p-6 text-center">
+                            <div class="text-3xl font-bold text-[#F97316] mb-2">15L+</div>
+                            <div class="text-sm text-gray-600">Daily Collection</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bg-gradient-to-br from-[#10B981]/5 to-[#FFD87B]/5 rounded-3xl p-8 lg:p-12 shadow-xl">
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 lg:gap-12 items-center">
+                <div class="relative mx-auto lg:mx-0">
+                    <div class="relative overflow-hidden rounded-full w-48 h-48 lg:w-56 lg:h-56 shadow-2xl"><img
+                            src="assets/images/farmer-portrait.png" alt="Ramesh Patil - ButterBliss Partner Farmer"
+                            class="w-full h-full object-cover">
+                        <div class="absolute inset-0 bg-gradient-to-t from-green-900/20 to-transparent"></div>
+                    </div>
+                    <div class="absolute -top-2 -right-2 bg-[#10B981] rounded-full p-3 shadow-lg"><svg
+                            xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="lucide lucide-indian-rupee w-6 h-6 text-white" aria-hidden="true">
+                            <path d="M6 3h12"></path>
+                            <path d="M6 8h12"></path>
+                            <path d="m6 13 8.5 8"></path>
+                            <path d="M6 13h3"></path>
+                            <path d="M9 13c6.667 0 6.667-10 0-10"></path>
+                        </svg></div>
+                    <div class="absolute -bottom-2 -left-2 bg-[#FFD87B] rounded-full p-3 shadow-lg"><svg
+                            xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="lucide lucide-heart w-6 h-6 text-white" aria-hidden="true">
+                            <path
+                                d="M2 9.5a5.5 5.5 0 0 1 9.591-3.676.56.56 0 0 0 .818 0A5.49 5.49 0 0 1 22 9.5c0 2.29-1.5 4-3 5.5l-5.492 5.313a2 2 0 0 1-3 .019L5 15c-1.5-1.5-3-3.2-3-5.5">
+                            </path>
+                        </svg></div>
+                </div>
+                <div class="lg:col-span-2 space-y-6 text-center lg:text-left">
+                    <div class="space-y-4">
+                        <div class="text-6xl text-[#10B981] opacity-50">"</div>
+                        <blockquote class="text-lg lg:text-xl text-gray-700 leading-relaxed -mt-8">ButterBliss has
+                            transformed our lives. We now receive fair payments daily for our fresh milk, and our
+                            children can attend better schools. The training they provide has helped us improve our
+                            cattle care and increase milk production.</blockquote>
+                    </div>
+                    <div class="space-y-2">
+                        <div class="font-playfair text-xl lg:text-2xl text-[#2C3E50]">Ramesh Patil</div>
+                        <div class="text-[#10B981] font-medium">Partner Farmer, Varkute Malvadi</div>
+                        <div class="text-sm text-gray-600">5 years with ButterBliss • 25 Holstein cows</div>
+                    </div>
+                    <div class="flex flex-wrap justify-center lg:justify-start gap-3 pt-4">
+                        <div class="bg-white rounded-full px-4 py-2 shadow-md flex items-center space-x-2">
+                            <div class="w-3 h-3 bg-[#10B981] rounded-full"></div><span class="text-sm font-medium">Top
+                                Quality Supplier</span>
+                        </div>
+                        <div class="bg-white rounded-full px-4 py-2 shadow-md flex items-center space-x-2">
+                            <div class="w-3 h-3 bg-[#FFD87B] rounded-full"></div><span class="text-sm font-medium">Daily
+                                Collection</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="contact" class="py-20 lg:py-32 bg-gradient-to-br from-[#2563EB]/10 via-white to-[#FFD87B]/10 relative">
+    <div class="container mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        <div class="text-center space-y-6 mb-16 lg:mb-20">
+            <h2 class="font-playfair text-3xl sm:text-4xl lg:text-5xl text-[#2C3E50]">Get in <span
+                    class="text-[#0D96D9]">Touch</span></h2>
+            <p class="text-lg text-gray-600 max-w-3xl mx-auto leading-relaxed">Ready to experience the freshest milk
+                delivered to your doorstep? Contact us today and join thousands of satisfied families.</p>
+        </div>
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16">
+            <div class="bg-white rounded-3xl p-8 lg:p-10 shadow-xl">
+                <h3 class="font-playfair text-2xl text-[#2C3E50] mb-6">Send us a Message</h3>
+                <form class="space-y-6">
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                        <div><label class="block text-sm font-medium text-[#2C3E50] mb-2">First Name</label><input
+                                type="text" data-slot="input"
+                                class="file:text-foreground placeholder:text-muted-foreground selection:bg-primary selection:text-primary-foreground dark:bg-input/30 border-input flex h-9 min-w-0 rounded-md border px-3 py-1 text-base bg-input-background transition-[color,box-shadow] outline-none file:inline-flex file:h-7 file:border-0 file:bg-transparent file:text-sm file:font-medium disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 md:text-sm focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive w-full"
+                                name="firstName" placeholder="Enter your first name" required="" value=""></div>
+                        <div><label class="block text-sm font-medium text-[#2C3E50] mb-2">Last Name</label><input
+                                type="text" data-slot="input"
+                                class="file:text-foreground placeholder:text-muted-foreground selection:bg-primary selection:text-primary-foreground dark:bg-input/30 border-input flex h-9 min-w-0 rounded-md border px-3 py-1 text-base bg-input-background transition-[color,box-shadow] outline-none file:inline-flex file:h-7 file:border-0 file:bg-transparent file:text-sm file:font-medium disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 md:text-sm focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive w-full"
+                                name="lastName" placeholder="Enter your last name" required="" value=""></div>
+                    </div>
+                    <div><label class="block text-sm font-medium text-[#2C3E50] mb-2">Email</label><input type="email"
+                            data-slot="input"
+                            class="file:text-foreground placeholder:text-muted-foreground selection:bg-primary selection:text-primary-foreground dark:bg-input/30 border-input flex h-9 min-w-0 rounded-md border px-3 py-1 text-base bg-input-background transition-[color,box-shadow] outline-none file:inline-flex file:h-7 file:border-0 file:bg-transparent file:text-sm file:font-medium disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 md:text-sm focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive w-full"
+                            name="email" placeholder="Enter your email" required="" value=""></div>
+                    <div><label class="block text-sm font-medium text-[#2C3E50] mb-2">Phone Number</label><input
+                            type="tel" data-slot="input"
+                            class="file:text-foreground placeholder:text-muted-foreground selection:bg-primary selection:text-primary-foreground dark:bg-input/30 border-input flex h-9 min-w-0 rounded-md border px-3 py-1 text-base bg-input-background transition-[color,box-shadow] outline-none file:inline-flex file:h-7 file:border-0 file:bg-transparent file:text-sm file:font-medium disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 md:text-sm focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive w-full"
+                            name="phone" placeholder="Enter your phone number" required="" value=""></div>
+                    <div><label class="block text-sm font-medium text-[#2C3E50] mb-2">Message</label><textarea
+                            data-slot="textarea"
+                            class="border-input placeholder:text-muted-foreground focus-visible:border-ring focus-visible:ring-ring/50 aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive dark:bg-input/30 flex field-sizing-content rounded-md border bg-input-background px-3 py-2 text-base transition-[color,box-shadow] outline-none focus-visible:ring-[3px] disabled:cursor-not-allowed disabled:opacity-50 md:text-sm w-full min-h-[120px] resize-none"
+                            name="message" placeholder="Tell us how we can help you..." required=""></textarea></div>
+                    <button data-slot="button"
+                        class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg:not([class*='size-'])]:size-4 shrink-0 [&amp;_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive h-9 px-4 has-[&gt;svg]:px-3 w-full py-3 transition-all duration-300 bg-[#FFD87B] hover:bg-[#FFD87B]/90 text-[#2C3E50] scale-100"
+                        type="submit" disabled="">Send Message</button>
+                </form>
+            </div>
+            <div class="space-y-8">
+                <div class="bg-white rounded-3xl p-8 lg:p-10 shadow-xl">
+                    <h3 class="font-playfair text-2xl text-[#2C3E50] mb-6">Contact Information</h3>
+                    <div class="space-y-6">
+                        <div class="flex items-start space-x-4">
+                            <div class="bg-[#2563EB] rounded-full p-3 flex-shrink-0"><svg
+                                    xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="lucide lucide-phone w-5 h-5 text-white"
+                                    aria-hidden="true">
+                                    <path
+                                        d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384">
+                                    </path>
+                                </svg></div>
+                            <div>
+                                <h4 class="font-semibold text-[#2C3E50] mb-1">Phone</h4>
+                                <p class="text-gray-600">+91 98765 43210</p>
+                                <p class="text-gray-600">+91 87654 32109</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start space-x-4">
+                            <div class="bg-[#FFD87B] rounded-full p-3 flex-shrink-0"><svg
+                                    xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="lucide lucide-mail w-5 h-5 text-white"
+                                    aria-hidden="true">
+                                    <path d="m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7"></path>
+                                    <rect x="2" y="4" width="20" height="16" rx="2"></rect>
+                                </svg></div>
+                            <div>
+                                <h4 class="font-semibold text-[#2C3E50] mb-1">Email</h4>
+                                <p class="text-gray-600">hello@butterbliss.com</p>
+                                <p class="text-gray-600">support@butterbliss.com</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start space-x-4">
+                            <div class="bg-[#10B981] rounded-full p-3 flex-shrink-0"><svg
+                                    xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="lucide lucide-map-pin w-5 h-5 text-white"
+                                    aria-hidden="true">
+                                    <path
+                                        d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0">
+                                    </path>
+                                    <circle cx="12" cy="10" r="3"></circle>
+                                </svg></div>
+                            <div>
+                                <h4 class="font-semibold text-[#2C3E50] mb-1">Address</h4>
+                                <p class="text-gray-600">123 Dairy Farm Road<br>Varkute Malvadi, Maharashtra<br>India -
+                                    413102</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-gradient-to-br from-[#2563EB]/5 to-[#FFD87B]/5 rounded-3xl p-8 lg:p-10">
+                    <h3 class="font-playfair text-2xl text-[#2C3E50] mb-6">Operating Hours</h3>
+                    <div class="space-y-3">
+                        <div class="flex justify-between items-center"><span class="text-[#2C3E50] font-medium">Monday -
+                                Friday</span><span class="text-gray-600">6:00 AM - 8:00 PM</span></div>
+                        <div class="flex justify-between items-center"><span
+                                class="text-[#2C3E50] font-medium">Saturday</span><span class="text-gray-600">6:00 AM -
+                                6:00 PM</span></div>
+                        <div class="flex justify-between items-center"><span
+                                class="text-[#2C3E50] font-medium">Sunday</span><span class="text-gray-600">7:00 AM -
+                                5:00 PM</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
